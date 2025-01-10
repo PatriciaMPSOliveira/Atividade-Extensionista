@@ -45,7 +45,7 @@ pip install pyqt5-tools
 
 Após a instalação a interface do pyqt5 e exibida
 
-![alt text](image-10.png)
+![alt text](Documentacao/image-10.png)
 
 ### Iniciando a criação das telas
 
@@ -88,7 +88,7 @@ No PyQt5 foram desenvolvidas três telas principais para interação com o usuá
 ## Criação do Banco de Dados
 
 
-![alt text](image-12.png)
+![alt text](Documentacao/image-12.png)
 
 O banco de dados foi criado utilizando **MySQL** e conta com duas tabelas principais:
 1.	**Tabela Servidores**
@@ -105,7 +105,7 @@ Os comandos utilizados para criar essas tabelas serão apresentados a seguir.
     use certidao_contagem_tempo;;
 ~~~
 
-*Código utilizado para criar a tabela cadastro
+*Código utilizado para criar a tabela cadastro*
 
 ~~~MySQL
     create database certidao_contagem_tempo;;
@@ -125,7 +125,7 @@ Os comandos utilizados para criar essas tabelas serão apresentados a seguir.
     );
 ~~~
 
-*Código utilizado para criar a tabela período
+*Código utilizado para criar a tabela período*
 
 ~~~MySQL
     use certidao_tempo_servico;
@@ -190,27 +190,27 @@ pip install pyinstaller
 pyinstaller --windowed main.py
 ~~~
 
-Abaixo estão as telas aque o usuário irá visualizar a pós a instalação do software, e a certidão em PDF gerada pelo sistema em um modelo simples. O layout da certidão pode ser configurado de acordo com o desejo do cliente.
+Abaixo estão as telas aque o usuário irá visualizar após a instalação do software, e a certidão em PDF gerada pelo sistema em um modelo simples. O layout da certidão pode ser configurado de acordo com o desejo do cliente.
 
 
 <div style="text-align: center;">Tela: Cadastro</div>
 <div style="text-align: center;">
-  <img src="image-16.png" alt="Descrição da imagem" width="700">
+  <img src="Documentacao/image-16.png" alt="Descrição da imagem" width="700">
 </div>
 <br></br>
 <div style="text-align: center;">Tela: Período</div>
 <div style="text-align: center;">
-  <img src="image-15.png" alt="Descrição da imagem" width="700">
+  <img src="Documentacao/image-15.png" alt="Descrição da imagem" width="700">
 </div>
 <br></br>
 <div style="text-align: center;">Tela: Relatório</div>
 <div style="text-align: center;">
-  <img src="image-17.png" alt="Descrição da imagem" width="700">
+  <img src="Documentacao/image-17.png" alt="Descrição da imagem" width="700">
 </div>
 <br></br>
 <div style="text-align: center;">Certidão gerada em pdf. Obs: Os dados que constam no documento são fictícios.</div>
 <div style="text-align: center;">
-  <img src="image-18.png" alt="Descrição da imagem" width="700">
+  <img src="Documentacao/image-18.png" alt="Descrição da imagem" width="700">
 </div>
 
 
@@ -218,7 +218,7 @@ Abaixo estão as telas aque o usuário irá visualizar a pós a instalação do 
 ## Impacto do Sistema
 
 Com a implantação do sistema espera alcançar os seguintes benefícios:
-*	Redução do tempo gasto em tarefas manuais: Substituição de planilhas do Excel por um sistema automatizado.
+*	Redução do tempo gasto em tarefas manuais: Substituição de planilhas em Excel por um sistema automatizado.
 *	Aumento na precisão: Redução de erros humanos nos cálculos de tempo de serviço.
 *	Emissão de relatórios confiáveis: Documentos claros e acessíveis em formato PDF.
 *	Facilidade de uso: Telas intuitivas que permitem operação por profissionais sem conhecimentos avançados em tecnologia.
@@ -239,6 +239,12 @@ Embora tenham surgido dificuldades, como a validação de dados e a adaptação 
 
 
 [Desenvolvimento_de_Sistemas_com_Java_Python_e_MySQL](https://www.udemy.com/course/desenvolvimento-de-sistemas-java-python-e-mysql/)
+
+https://doc.qt.io/qtforpython-6/
+
+https://docs.python.org/pt-br/3.7/faq/gui.html
+
+https://wiki.python.org.br/TutorialPyQt
 
 https://pythonprogramminglanguage.com/pyqt5-message-box/
 
